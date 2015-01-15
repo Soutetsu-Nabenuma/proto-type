@@ -1,27 +1,27 @@
 <html>
 <head>
-<title>
-入力画面
-</title>
-<meta charset="utf-8"></meta>
-<script language="javascript">
-function onClick(){
-  target=document.getElementById("output");
-  target.innerHTML=document.form.idForm1.idName1.value;
-}
-</script>
+  名前・数値入力
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+<script src="hokan.js"></script>
 </head>
 
 <body>
-<h1>
-入力
-<h1>
-<form name="form1" id="idForm1" action="">
-<input type="text" name="name1" id="idName1" value=""></input>
-<input type="button" value="名前入力" onclick="onClick();"></input>
-</form>
- <hr/>
-  <div id="output"></div>
+  <br>
+  <form method="get" action="index0.html" id="aaa" name="aaa">
+
+    <input type="text" name="name01" size="20"></input> <input type="password" name="value01-01" size="5"></input> <input type="password" name="value01-02" size="5"></input> <input type="password" name="value01-03" size="5"></input> <input type="password" name="value01-04" size="5"></input> <input type="password" namne="value01-05" size="5"><br><br>
+    <input type="text" name="name02" size="20"></input> <input type="password" name="value02-01" size="5"></input> <input type="password" name="value02-02" size="5"></input> <input type="password" name="value02-03" size="5"></input> <input type="password" name="value02-04" size="5"></input> <input type="password" namne="value02-05" size="5"><br><br>
+    <input type="text" name="name03" size="20"></input> <input type="password" name="value03-01" size="5"></input> <input type="password" name="value03-02" size="5"></input> <input type="password" name="value03-03" size="5"></input> <input type="password" name="value03-04" size="5"></input> <input type="password" namne="value03-05" size="5"><br><br>
+    <input type="text" name="name04" size="20"></input> <input type="password" name="value04-01" size="5"></input> <input type="password" name="value04-02" size="5"></input> <input type="password" name="value04-03" size="5"></input> <input type="password" name="value04-04" size="5"></input> <input type="password" namne="value04-05" size="5"><br><br>
+    <input type="text" name="name05" size="20"></input> <input type="password" name="value05-01" size="5"></input> <input type="password" name="value05-02" size="5"></input> <input type="password" name="value05-03" size="5"></input> <input type="password" name="value05-04" size="5"></input> <input type="password" namne="value05-05" size="5"><br><br>
+    <br><br>
+    <button type="submit" form="aaa" onclick="hokan()">送信</button>
+    <button type="reset">リセット</button>
+
+  </form>
+
+
 </body>
+
 
 </html>
