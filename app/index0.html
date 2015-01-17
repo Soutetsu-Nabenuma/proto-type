@@ -1,20 +1,31 @@
 <html>
 <head>
   <script src="hokan.js"></script>
-  名前入力
-
+  <title>集計結果</title>
+  <link rel="stylesheet" type="text/css" href="result.css">
 </head>
 
 <body>
   <br>
   <form method="post" action="index.html" id="01">
     <br>
+  <table id="result">
+    <tr><td id="output1">aa</td> <td id="syuukei1">aa</td> </tr>
+    <tr><td id="output2">aa</td> <td id="syuukei2">aa</td> </tr>
+    <tr><td id="output3">aa</td> <td id="syuukei3">aa</td> </tr>
+    <tr><td id="output4">aa</td> <td id="syuukei4">aa</td> </tr>
+    <tr><td id="output5">aa</td> <td id="syuukei5">aa</td> </tr>
+  </table>
 
-  <div id="output">ああ</div>
-  <div id="output2">aa</id>
   <script type="text/javascript">shuturyoku();</script>
 
-</form>
+ </form>
+ <script src="chart.js"></script>
+
+ 		<div style="width: 50%">
+			<canvas id="canvas" height="450" width="600"></canvas>
+	  </div>
+
 
 </body>
 
