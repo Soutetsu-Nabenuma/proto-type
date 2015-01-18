@@ -1,7 +1,8 @@
 
 function hokan(){
 
-    namae1 = document.aaa.name01.value;
+
+    var namae1 = document.aaa.name01.value;
     localStorage.setItem("a" , namae1);
 
     var kekka101 = parseInt(document.aaa.value0101.value);
